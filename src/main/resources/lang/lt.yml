@@ -1,0 +1,63 @@
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success:
+    Paid: '&aBuvote teleportuotas į&7 x=%x% y=%y% z=%z% už &c$%price%&7!'
+    Bypass: '&aBuvote teleportuotas į&7 x=%x% y=%y% z=%z%'
+    Loading: '&aRasta saugi vieta! &7Įkeliami chunk''ai...'
+    Teleport: '&aTeleportuojama... &fpalaukite, kol rasime saugią vietą!'
+  Failed:
+    Price: '&cNepavyko teleportuotis – nepakanka pinigų! &7Reikia bent $%price%&7!'
+    NotSafe: '&cNepavyko rasti saugios vietos per %attempts% bandymų! &7Jūs nebuvote teleportuotas!'
+    Hunger: '&cNegalite teleportuotis, nes esate... &7per daug alkanas&c, pavalgykite!'
+  Other:
+    Success: '&a%player% buvo teleportuotas į&7 x=%x% y=%y% z=%z%'
+    NotSafe: '&cNepavyko rasti saugios vietos per %attempts% bandymų! &7%player% nebuvo teleportuotas!'
+    Biome: '&cAtrodo, jog biomo &7%biome%&c nėra! &7Bandykite naudoti TAB sąrašą!'
+  Reload: '&eKonfigūracija sėkmingai perkrauta!'
+  NoPermission:
+    Basic: '&cAtsiprašome! &7Neturite leidimo naudoti šią komandą! &8Leidimas: %permission%'
+    World: '&cAtsiprašome! &7Jums neleidžiama teleportuotis pasaulyje %world%! &8Leidimas: %permission%'
+  DisabledWorld: '&cPasaulis %world% išjungtas! &7Negalima teleportuotis!'
+  Cooldown: '&cAtsiprašome! &7Negalite teleportuotis dar &c%time%&7!'
+  Locked: '&cAtsiprašome! &7Jūs išnaudojote visus savo teleportus!'
+  Invalid: '&cNeteisingas argumentas. Bandykite ''/%command% help'''
+  NotOnline: '&cŽaidėjas &7%player% &cnėra prisijungęs!'
+  Delay: '&aTeleportacija po &f%time% &asekundžių! Nepajudėkite!'
+  Moved: '&cJūs pajudėjote! &7Teleportacija atšaukta!'
+  NotExist: '&cAtrodo, jog pasaulio &7%world% &cnėra!'
+  Already: '&cPalaukite! &7Jūs jau teleportuojatės, turėkite kantrybės!'
+  Sign: '&7Komandinė iškaba sukurta! &7Komanda... ''&f/rtp %command%&7'''
+  Edit:
+    Error: '&cKlaida! &7Neteisinga įvestis!'
+    Set: '&bSėkmingai! &7%type% nustatyta į %value%'
+    Remove: '&cPašalinta! &7Pašalinote Custom World %world%'
+
+Help:
+  Prefix: '&e&m-----&6&l BetterRTP &8| Pagalba &e&m-----'
+  Main: ' &7- &e/%command% &7- Atsitiktinai teleportuoja jus!'
+  Biome: ' &7- &e/%command% biome <biome1, biome2...> &7- Atsitiktinė teleportacija pasirinktuose biomuose'
+  Edit: ' &7- &e/%command% edit <default/world> [args...] &7- Redaguoti plugino nustatymus'
+  Help: ' &7- &e/%command% help &7- Rodo pagalbos sąrašą'
+  Info: ' &7- &e/%command% info [world/particles/shapes/potion_effects] &7- Peržiūrėti informaciją apie parametrus'
+  Player: ' &7- &e/%command% player <player> [world] [biome1, biome2...] &7- Atsitiktinai teleportuoti kitą žaidėją'
+  Reload: ' &7- &e/%command% reload &7- Perkrauna pluginą'
+  Settings: ' &7- &e/%command% settings &7- Atidaro GUI ir leidžia redaguoti nustatymus'
+  Test: ' &7- &e/%command% test &7- Išbando efektus po teleportacijos be judėjimo'
+  Version: ' &7- &e/%command% version &7- Parodo naudojamą versiją'
+  World: ' &7- &e/%command% world <world> [biome1, biome2...] &7- Atsitiktinai teleportuoja į kitą pasaulį'
+  Location: ' &7- &e/%command% location <location_name> &7- Teleportuoja į konkrečią vietą'
+
+Usage:
+  Player: '&cNaudojimas&7: /%command% player <player> [world] [biome1, biome2]'
+  World: '&cNaudojimas&7: /%command% world <world> [biome1, biome2...]'
+  Biome: '&cNaudojimas&7: /%command% biome <biome1, biome2...>'
+  Location: '&cNaudojimas&7: /%command% location <location_name>'
+  Edit:
+    Base: '&cNaudojimas&7: /%command% edit <default/world> [args...]'
+    Default: '&cNaudojimas&7: /%command% edit default <max/min/useworldborder/center> <value>'
+    World: '&cNaudojimas&7: /%command% edit customworld <world> <max/min/useworldborder/center> <value>'
+    PermissionGroup: '&cNaudojimas&7: /%command% edit permission_group <group> <world> <max/min/useworldborder/center> <value>'
+    Location: '&cNaudojimas&7: /%command% edit location <location_name> <max/min/useworldborder/center> <value>'
+    Worldtype: '&cNaudojimas&7: /%command% edit world_type <world> <NETHER/NORMAL>'
+    Override: '&cNaudojimas&7: /%command% edit override <world> <world_to>'
+    BlacklistedBlocks: '&cNaudojimas&7: /%command% edit blacklistedblocks <add/remove> <block_id>'
